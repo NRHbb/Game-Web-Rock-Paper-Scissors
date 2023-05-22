@@ -2,7 +2,7 @@ import { Container, Row } from 'react-bootstrap'
 import Link from 'next/link'
 import RegisterForm from '../../components/forms/RegisterForm'
 import Head from 'next/head'
-import Layout from '@/components/layout'
+import Layout from '../../components/layout'
 
 export default function Register () {
   return (

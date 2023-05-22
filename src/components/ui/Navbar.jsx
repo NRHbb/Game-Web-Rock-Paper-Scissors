@@ -6,7 +6,7 @@ import { signOut } from 'firebase/auth'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { useDispatch, useSelector } from 'react-redux'
-import { logout } from '@/store/userSlice'
+import { logout } from '../../store/userSlice'
 import Image from 'next/image'
 
 export default function NavbarTop () {

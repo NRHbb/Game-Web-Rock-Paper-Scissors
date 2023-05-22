@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import { onAuthStateChanged } from 'firebase/auth'
 import { auth } from '../../services/firebase'
 import Head from 'next/head'
-import Layout from '@/components/layout'
+import Layout from '../../components/layout'
 import Link from 'next/link'
 import { useSelector } from 'react-redux'
 import { useEffect } from 'react'
@@ -12,11 +12,11 @@ export default function Home () {
   const router = useRouter()
   const user = useSelector((state) => state.user)
 
-  useEffect(() => {
-    if (!user.user) {
-      router.push('/login')
-    }
-  }, [user, router])
+  // useEffect(() => {
+  //   if (!user.user) {
+  //     router.push('/login')
+  //   }
+  // }, [user, router])
 
   return (
     <Layout>
