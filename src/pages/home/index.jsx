@@ -7,6 +7,7 @@ import Layout from '../../components/layout'
 import Link from 'next/link'
 import { useSelector } from 'react-redux'
 import { useEffect } from 'react'
+import AudioPlayer1 from '../../components/media/AudioPlayer1'
 
 export default function Home () {
   const router = useRouter()
@@ -24,6 +25,7 @@ export default function Home () {
         <title>Home</title>
       </Head>
       <div className="home-bg-image">
+        <AudioPlayer1/>
         <Container className="d-flex flex-column align-content-center justify-content-center text-center text-light min-vh-100">
           <h1 className="mb-4 home-title">Are you ready to play a game?</h1>
           <p className="mb-4 home-subtitle">Explore our games</p>

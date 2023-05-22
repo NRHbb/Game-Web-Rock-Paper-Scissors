@@ -103,7 +103,7 @@ export default function RegisterForm () {
   }
 
   return (
-    <Container className="mt-2 p-lg-5 pt-0">
+    <Container className="mt-2 p-lg-5 pt-0 d-flex flex-column justify-content-center align-content-center">
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="email" className="mb-3">
           <Form.Label>Email</Form.Label>
