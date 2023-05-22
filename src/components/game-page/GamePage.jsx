@@ -5,7 +5,6 @@ import { auth } from '../../services/firebase'
 import { useDispatch, useSelector } from 'react-redux'
 import { Container, Nav, Navbar, NavItem, Row, Col } from 'react-bootstrap'
 import AudioPlayer2 from '../media/AudioPlayer2'
-
 import Image from 'next/image'
 import Link from 'next/link'
 

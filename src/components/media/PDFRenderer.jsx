@@ -24,7 +24,9 @@ const PDFRenderer = () => {
   return (
         <div className='certificate'>
             <h1>E-Certificate</h1>
-            <Button onClick={handleDownload}>Download PDF</Button>
+            <Button onClick={handleDownload} className="certificate" variant="light" style={{ color: 'orange', width: 250 }}>
+              Download
+            </Button>
         </div>
   )
 }
