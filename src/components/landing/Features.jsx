@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import { Row } from 'react-bootstrap'
 // import bulet from "../../public/ellipse.svg"
@@ -17,7 +16,7 @@ export default function Features () {
                 <div className='features text-white'>
                     <Row className='justify-content-end features-contents'>
                         <div className='col-lg-5 features-info mb-2'>
-                            <h3 className="features-head pt-4">What's so special?</h3>
+                            <h3 className="features-head pt-4">What`s so special?</h3>
                             <h1 className="features-child pt-4 pb-5 text-uppercase">features</h1>
                         </div>
                     </Row>

@@ -13,11 +13,11 @@ export default function Home () {
   const router = useRouter()
   const user = useSelector((state) => state.user)
 
-  // useEffect(() => {
-  //   if (!user.user) {
-  //     router.push('/login')
-  //   }
-  // }, [user, router])
+  useEffect(() => {
+    if (!user.user) {
+      router.push('/login')
+    }
+  }, [user, router])
 
   return (
     <Layout>

@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import { Button, Container, Row, Card } from 'react-bootstrap'
 // import evant from '/evan-lahti.jpg'
@@ -138,7 +137,7 @@ export default function Quotes () {
                     <div className="flex-column p-2">
                       <Card.Text className="text-white">
                         <q>
-                          Snoop Dogg playing the wildly entertaining 'SOS' is
+                          Snoop Dogg playing the wildly entertaining `SOS` is
                           ridiculous
                         </q>
                         <small>December 24, 2018</small>

@@ -1,11 +1,9 @@
-/* eslint-disable import/no-duplicates */
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 // import arrow from '/scroll-down.svg'
 import { Button } from 'react-bootstrap'
 import NavigationBar from './Navbar'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
-import { useState, useEffect } from 'react'
 
 export default function MainScreen () {
   const router = useRouter()

@@ -29,8 +29,8 @@ export default function NavbarTop () {
   return (
     <Navbar expand="lg" sticky="top" className="navbar-dark text-warning shadow-lg">
       <div className="container-fluid p-1 ms-5 me-5">
-        <Navbar.Brand href="/" className="text-warning d-flex align-content-center">
-          <Image alt="logo" width={25} height={25} loading="lazy" src="/logo.svg" className="d-inline-block align-top" /> <span className="fw-bold">The Game</span>
+        <Navbar.Brand href="/home" className="text-warning d-flex align-content-center">
+          <Image alt="" src="logo.svg" width={30} height={30} className="d-inline-block align-top" /> <span className="fw-bold">The Game</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

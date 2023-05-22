@@ -3,10 +3,10 @@ import { Form, Button, Container, Alert } from 'react-bootstrap'
 import { auth } from '../../services/firebase'
 import { createUserWithEmailAndPassword, GoogleAuthProvider, FacebookAuthProvider, signInWithPopup, onAuthStateChanged } from 'firebase/auth'
 import { useRouter } from 'next/router'
-import { loginWithGoogleSuccess } from '../../store/userSlice'
+import { loginWithGoogleSuccess } from '@/store/userSlice'
 import { BsGoogle, BsFacebook } from 'react-icons/bs'
 import { useDispatch, useSelector } from 'react-redux'
-import { finishLoad, loadButton } from '../../store/buttonSlice'
+import { finishLoad, loadButton } from '@/store/buttonSlice'
 
 export default function RegisterForm () {
   const dispatch = useDispatch()
@@ -107,15 +107,15 @@ export default function RegisterForm () {
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="email" className="mb-3">
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email" name="email" ref={emailRef} required placeholder="Enter your email" />
+          <Form.Control type="email" ref={emailRef} required />
         </Form.Group>
         <Form.Group controlId="password" className="mb-3">
           <Form.Label>Password</Form.Label>
-          <Form.Control type="password" name="password" ref={passwordRef} required placeholder="Enter your password" />
+          <Form.Control type="password" ref={passwordRef} required />
         </Form.Group>
         <Form.Group controlId="confirmPassword" className="mb-3">
           <Form.Label>Confirm Password</Form.Label>
-          <Form.Control type="password" ref={confirmPasswordRef} required placeholder="Confirm your password " />
+          <Form.Control type="password" ref={confirmPasswordRef} required />
         </Form.Group>
         <Button className="w-50 mt-3" type="submit" variant="outline-warning" disabled={loading}>
           {loading ? 'Creating your account...' : 'Register'}
