@@ -1,0 +1,84 @@
+.gl-wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../../public/temple-construction.png");
+    background-size: cover;
+  }
+  
+  .gl-container {
+    min-height: 100vh;
+  }
+  
+  .gl-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 32px 0;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  
+  .gl-page-title {
+    width: fit-content;
+    margin-left: auto;
+  }
+  
+  .gl-page-title h1 {
+    color: white;
+    font-size: 72px;
+    font-weight: 600;
+  }
+  
+  .gl-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px 0 32px 0;
+    color: white;
+  }
+  
+  .gl-content-header p {
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  .gl-content-header button {
+    padding: 12px 32px 8px 32px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: #f9c12d;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+  .gl-content-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 42px;
+  }
+  
+  @media (max-width: 992px) {
+    .gl-page-title {
+      margin: 0 auto;
+    }
+  
+    .gl-page-title h1 {
+      font-size: 52px;
+    }
+  
+    .gl-content-header {
+      flex-flow: column;
+      gap: 16px;
+      margin-bottom: 48px;
+      text-align: center;
+    }
+  
+    .gl-content-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  
