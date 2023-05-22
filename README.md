@@ -1,3 +1,12 @@
+Binar Academy - FSW 28 - Team 2 - Chapter 11 Challenges
+Team 2 terdiri dari:
+- Alfaafan Yusufa Achmad
+- Muhammad Nadhif Fuadi
+- Naufal Rizal Habibi
+- Agung Fadillah
+- Resa Kandhy Windaka
+- Widi Satriadi
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
