@@ -1,13 +1,13 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { Card, Row, Col, Table, Container, Image, Button } from 'react-bootstrap'
 import { onAuthStateChanged } from 'firebase/auth'
-import { auth, db } from '../../services/firebase'
-import { set, ref, onValue } from 'firebase/database'
+import { auth } from '../../services/firebase'
 import { useSelector } from 'react-redux'
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '@/components/layout'
 import PDFRenderer from '@/components/media/PDFRenderer'
+import VideoPlayer from '@/components/media/VideoPlayer'
 
 export default function Profile () {
   const [name, setName] = useState('')
@@ -86,14 +86,14 @@ export default function Profile () {
                                 </Table>
                             </Col>
                             <Col md={{ span: 2, offset: 1 }}>
-                            <h2 className="mt-3 ms-5" style={{ color: 'orange' }}>History</h2>
                             </Col>
-                            <Col className="mt-5" md={{ span: 6, offset: 4 }} style={{ backgroundColor: 'white', width: '700px', height: '400px', position: 'absolute', borderRadius: '10px', top: '340px', left: '150px' }}>
+                            <Col className="video" md={{ span: 6, offset: 4 }} style={{ position: 'absolute', left: '250px' }}>
+                                <VideoPlayer />
                             </Col>
                         </Row>
                         <Row className="mt-5 mb-4 ms-2">
                             <Col md={3}>
-                                <h1 style={{ color: 'orange' }}>Gemes</h1>
+                                <h1 style={{ color: 'orange' }}>Games</h1>
                                 <Link href="/game-detail">
                                   <Image className="rounded" alt="" src="game-list-1.png" style={{ width: '90px', height: '80px' }} />
                                 </Link>
