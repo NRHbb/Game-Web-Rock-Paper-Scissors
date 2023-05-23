@@ -1,6 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable new-cap */
-import jsPDF from 'jspdf'
+import { jsPDF } from 'jspdf'
 import { Button } from 'react-bootstrap'
 
 const PDFRenderer = () => {
