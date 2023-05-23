@@ -7,5 +7,5 @@ const StoreProvider = ({ children }) => {
   return <Provider store={store}>{children}</Provider>
 }
 
-export * from '@testing-library/react'
+// export * from '@testing-library/react'
 export { StoreProvider as render }
