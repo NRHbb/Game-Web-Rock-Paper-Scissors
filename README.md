@@ -1,11 +1,11 @@
 Binar Academy - FSW 28 - Team 2 - Chapter 11 Challenges
 Team 2 terdiri dari:
-- Alfaafan Yusufa Achmad
-- Muhammad Nadhif Fuadi
-- Naufal Rizal Habibi
-- Agung Fadillah
-- Resa Kandhy Windaka
-- Widi Satriadi
+- Alfaafan Yusufa Achmad (SCRUM Master, Register Page, Home Page, Navbar & Footer Component)
+- Muhammad Nadhif Fuadi Repo maintainer, Devops, Game List Page)
+- Naufal Rizal Habibi (UI Design, Landing Page, and Media Handling)
+- Agung Fadillah (Game Page, Boilerplate Coder)
+- Resa Kandhy Windaka (Login Page)
+- Widi Satriadi (Profile Page)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
